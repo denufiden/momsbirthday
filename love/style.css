@@ -63,3 +63,32 @@ body {
 .sound--off {
   text-decoration: line-through;
 }
+
+/* media querrry */
+
+
+
+/* laptop */
+@media (max-width: 992px) {
+  html{
+      font-size: 75%;
+  }
+}
+
+
+
+/* tablet */
+@media (max-width: 768px) {
+  html{
+      font-size: 55%;
+  }
+}
+
+
+
+/* Mobile Phone */
+@media (max-width: 576px) {
+  html{
+      font-size: 60%;
+  }
+}
